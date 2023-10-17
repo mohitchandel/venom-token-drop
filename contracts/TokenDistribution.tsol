@@ -1,0 +1,101 @@
+pragma ever-solidity >=0.61.2;
+pragma AbiHeader expire;
+pragma AbiHeader pubkey;
+
+import "@broxus/tip3/contracts/interfaces/IAcceptTokensTransferCallback.tsol";
+import "@broxus/tip3/contracts/interfaces/ITokenRoot.tsol";
+import "@broxus/tip3/contracts/interfaces/ITokenWallet.tsol";
+
+library Errors {
+  uint16 constant NOT_OWNER = 1000;
+}
+
+library TokenMsgFlag {
+    uint8 constant SENDER_PAYS_FEES     = 1;
+    uint8 constant IGNORE_ERRORS        = 2;
+    uint8 constant DESTROY_IF_ZERO      = 32;
+    uint8 constant REMAINING_GAS        = 64;
+    uint8 constant ALL_NOT_RESERVED     = 128;
+}
+
+contract TokenDistribution {
+  uint16 static _nonce; // Some random value to affect on contract address
+  address static _owner; // Tokensale owner. Will receive all transfers
+
+  address[] public _whiteListedWallets;
+
+  address public _distributedTokenRoot; // TIP3 TokenRoot address for deploying wallet for Tokensale. This token will be distributed
+  address public _distributedTokenWallet; // TIP3 wallet for Tokensale for sending purchased tokens
+  uint256 public _supply; // How much tokens will be distributed (with decimals)
+
+  mapping(address => bool) private _isWhitelisted;
+
+  event addedWallets(address wallet);
+  event TokenDistrbuted(address to, uint128 amount);
+
+  constructor(address distributedTokenRoot, uint256 supply, address sendRemainingGasTo) public {
+    tvm.accept(); 
+    tvm.rawReserve(1 ever, 0); 
+    _distributedTokenRoot = distributedTokenRoot;
+    _supply = supply;
+    ITokenRoot(distributedTokenRoot).deployWallet{
+      value: 0.2 ever,
+      flag: 1,
+      callback: TokenDistribution.onTokenWallet
+    }(address(this), 0.1 ever); 
+    sendRemainingGasTo.transfer({ value: 0, flag: 128, bounce: false });
+  }
+
+  modifier onlyOwner() {
+    require(msg.sender == _owner, Errors.NOT_OWNER);
+    _;
+  }
+
+
+  function whiteListAddresses(address[] _walletAddresses) external {
+    tvm.accept();
+    for (uint256 i = 0; i < _walletAddresses.length; i++) {
+      address recipient = _walletAddresses[i];
+      if (_isWhitelisted[recipient]) {
+        // pass
+      } else {
+        _whiteListedWallets.push(recipient);
+        _isWhitelisted[recipient] = true;
+        emit addedWallets(recipient);
+      }
+    }
+  }
+
+  function getWhiteListedAddresses() external view returns (address[] whiteListedWallets) {
+    return _whiteListedWallets;
+  }
+
+  function onTokenWallet(address value) external {
+    require(
+      msg.sender.value != 0 && msg.sender == _distributedTokenRoot, // check, that calling was from TokenRoot we need
+      101 // some error code for this require
+    );
+    tvm.rawReserve(1 ever, 0);
+    _distributedTokenWallet = value; // store deployed tip3 wallet address
+    _owner.transfer({ value: 0, flag: 128, bounce: false }); // sending remaining gas after setups
+  }
+
+  function distributeTokens(uint128 amount) external view onlyOwner {
+    tvm.rawReserve(1 ever, 0);
+    for (uint256 i = 0; i < _whiteListedWallets.length; i++) {
+      address recipient = _whiteListedWallets[i];
+      TvmCell empty;
+      ITokenWallet(_distributedTokenWallet).transfer{ value: 0.2 ever, flag: 0}(
+        amount,
+        recipient,
+        0,
+        recipient,
+        true,
+        empty
+      );
+      emit TokenDistrbuted(recipient, amount);
+    }
+  }
+}
+
+
