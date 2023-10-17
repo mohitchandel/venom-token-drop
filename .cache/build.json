@@ -1,11 +1,11 @@
 {
     "contracts/TokenDistribution.tsol": {
-        "modificationTime": 1697528941164
-    },
-    "/Users/mohitchandel/Documents/venom-token-drop/node_modules/@broxus/tip3/contracts/interfaces/ITokenRoot.tsol": {
-        "modificationTime": 1697194999562
+        "modificationTime": 1697563315580
     },
     "/Users/mohitchandel/Documents/venom-token-drop/node_modules/@broxus/tip3/contracts/interfaces/IAcceptTokensTransferCallback.tsol": {
+        "modificationTime": 1697194999562
+    },
+    "/Users/mohitchandel/Documents/venom-token-drop/node_modules/@broxus/tip3/contracts/interfaces/ITokenRoot.tsol": {
         "modificationTime": 1697194999562
     },
     "/Users/mohitchandel/Documents/venom-token-drop/node_modules/@broxus/tip3/contracts/interfaces/ITokenWallet.tsol": {

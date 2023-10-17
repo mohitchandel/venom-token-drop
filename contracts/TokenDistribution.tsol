@@ -80,15 +80,15 @@ contract TokenDistribution {
     _owner.transfer({ value: 0, flag: 128, bounce: false }); // sending remaining gas after setups
   }
 
-  function distributeTokens(uint128 amount) external view onlyOwner {
+  function distributeTokens(uint128 amount) public view onlyOwner {
     tvm.rawReserve(1 ever, 0);
-    for (uint256 i = 0; i < _whiteListedWallets.length; i++) {
+    for (uint128 i = 0; i < _whiteListedWallets.length; i++) {
       address recipient = _whiteListedWallets[i];
       TvmCell empty;
-      ITokenWallet(_distributedTokenWallet).transfer{ value: 0.2 ever, flag: 0}(
+      ITokenWallet(_distributedTokenWallet).transfer{ value: 0.2 ever * uint128(_whiteListedWallets.length), flag: 0}(
         amount,
         recipient,
-        0,
+        0.1 ever,
         recipient,
         true,
         empty
