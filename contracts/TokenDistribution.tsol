@@ -72,8 +72,8 @@ contract TokenDistribution {
 
   function onTokenWallet(address value) external {
     require(
-      msg.sender.value != 0 && msg.sender == _distributedTokenRoot, // check, that calling was from TokenRoot we need
-      101 // some error code for this require
+      msg.sender.value != 0 && msg.sender == _distributedTokenRoot,
+      101 
     );
     tvm.rawReserve(1 ever, 0);
     _distributedTokenWallet = value; // store deployed tip3 wallet address
