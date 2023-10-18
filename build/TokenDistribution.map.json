@@ -1,585 +1,351 @@
 {
   "map": {
-    "181c539501c4b8686ff273e8b00b7bb854bbf37017b2992210484a3f7abfd443": {
+    "0f429dca9cdb2dc8852124d00083b2d954da3ca7be244936dd6b68cbe529f203": {
       "0": {
         "filename": "TokenDistribution.code",
-        "line": 652
+        "line": 737
       },
       "8": {
         "filename": "TokenDistribution.code",
-        "line": 653
-      },
-      "16": {
-        "filename": "TokenDistribution.code",
-        "line": 654
-      },
-      "32": {
-        "filename": "TokenDistribution.code",
-        "line": 657
-      },
-      "48": {
-        "filename": "TokenDistribution.code",
-        "line": 658
+        "line": 738
       },
       "56": {
         "filename": "TokenDistribution.code",
-        "line": 659
+        "line": 739
       },
-      "72": {
+      "64": {
         "filename": "TokenDistribution.code",
-        "line": 660
+        "line": 740
       },
-      "232": {
+      "80": {
         "filename": "TokenDistribution.code",
-        "line": 661
+        "line": 743
+      },
+      "88": {
+        "filename": "TokenDistribution.code",
+        "line": 744
+      },
+      "136": {
+        "filename": "TokenDistribution.code",
+        "line": 745
+      },
+      "144": {
+        "filename": "TokenDistribution.code",
+        "line": 746
+      },
+      "160": {
+        "filename": "TokenDistribution.code",
+        "line": 749
+      },
+      "168": {
+        "filename": "TokenDistribution.code",
+        "line": 750
+      },
+      "216": {
+        "filename": "TokenDistribution.code",
+        "line": 751
+      },
+      "224": {
+        "filename": "TokenDistribution.code",
+        "line": 752
       },
       "240": {
         "filename": "TokenDistribution.code",
-        "line": 662
+        "line": 755
       },
       "248": {
         "filename": "TokenDistribution.code",
-        "line": 663
-      },
-      "256": {
-        "filename": "TokenDistribution.code",
-        "line": 664
-      },
-      "264": {
-        "filename": "TokenDistribution.code",
-        "line": 665
-      },
-      "272": {
-        "filename": "TokenDistribution.code",
-        "line": 666
-      },
-      "288": {
-        "filename": "TokenDistribution.code",
-        "line": 668
+        "line": 756
       },
       "296": {
         "filename": "TokenDistribution.code",
-        "line": 669
+        "line": 757
+      },
+      "304": {
+        "filename": "TokenDistribution.code",
+        "line": 758
+      }
+    },
+    "181c539501c4b8686ff273e8b00b7bb854bbf37017b2992210484a3f7abfd443": {
+      "0": {
+        "filename": "TokenDistribution.code",
+        "line": 644
+      },
+      "8": {
+        "filename": "TokenDistribution.code",
+        "line": 645
+      },
+      "16": {
+        "filename": "TokenDistribution.code",
+        "line": 646
+      },
+      "32": {
+        "filename": "TokenDistribution.code",
+        "line": 649
+      },
+      "48": {
+        "filename": "TokenDistribution.code",
+        "line": 650
+      },
+      "56": {
+        "filename": "TokenDistribution.code",
+        "line": 651
+      },
+      "72": {
+        "filename": "TokenDistribution.code",
+        "line": 652
+      },
+      "232": {
+        "filename": "TokenDistribution.code",
+        "line": 653
+      },
+      "240": {
+        "filename": "TokenDistribution.code",
+        "line": 654
+      },
+      "248": {
+        "filename": "TokenDistribution.code",
+        "line": 655
+      },
+      "256": {
+        "filename": "TokenDistribution.code",
+        "line": 656
+      },
+      "264": {
+        "filename": "TokenDistribution.code",
+        "line": 657
+      },
+      "272": {
+        "filename": "TokenDistribution.code",
+        "line": 658
+      },
+      "288": {
+        "filename": "TokenDistribution.code",
+        "line": 660
+      },
+      "296": {
+        "filename": "TokenDistribution.code",
+        "line": 661
       }
     },
     "183d48a91d550a9c98d9d673b82f4bad7347f2bbf2c4e5ae20c36de0952a30b1": {
       "0": {
         "filename": "TokenDistribution.code",
-        "line": 433
+        "line": 425
       },
       "8": {
         "filename": "TokenDistribution.code",
-        "line": 434
+        "line": 426
       },
       "24": {
         "filename": "TokenDistribution.code",
-        "line": 435
+        "line": 427
       },
       "32": {
         "filename": "TokenDistribution.code",
-        "line": 436
+        "line": 428
       },
       "48": {
         "filename": "TokenDistribution.code",
-        "line": 437
+        "line": 429
       },
       "56": {
         "filename": "TokenDistribution.code",
-        "line": 438
+        "line": 430
       },
       "64": {
         "filename": "TokenDistribution.code",
-        "line": 439
+        "line": 431
       },
       "80": {
         "filename": "TokenDistribution.code",
-        "line": 440
+        "line": 432
       },
       "96": {
         "filename": "TokenDistribution.code",
-        "line": 441
+        "line": 433
       },
       "112": {
         "filename": "TokenDistribution.code",
-        "line": 442
+        "line": 434
       },
       "120": {
         "filename": "TokenDistribution.code",
-        "line": 443
+        "line": 435
       },
       "144": {
         "filename": "TokenDistribution.code",
-        "line": 445
+        "line": 437
       },
       "152": {
         "filename": "TokenDistribution.code",
-        "line": 446
+        "line": 438
       },
       "160": {
         "filename": "TokenDistribution.code",
-        "line": 447
+        "line": 439
       },
       "168": {
         "filename": "TokenDistribution.code",
-        "line": 448
+        "line": 440
       },
       "184": {
         "filename": "TokenDistribution.code",
-        "line": 449
+        "line": 441
       },
       "200": {
         "filename": "TokenDistribution.code",
-        "line": 450
+        "line": 442
       },
       "216": {
         "filename": "TokenDistribution.code",
-        "line": 455
+        "line": 447
       },
       "224": {
         "filename": "TokenDistribution.code",
-        "line": 456
+        "line": 448
       },
       "232": {
         "filename": "TokenDistribution.code",
-        "line": 457
+        "line": 449
       },
       "240": {
         "filename": "TokenDistribution.code",
-        "line": 458
+        "line": 450
       },
       "256": {
         "filename": "TokenDistribution.code",
-        "line": 459
+        "line": 451
       },
       "264": {
         "filename": "TokenDistribution.code",
-        "line": 462
+        "line": 454
       },
       "272": {
         "filename": "TokenDistribution.code",
-        "line": 463
+        "line": 455
       },
       "280": {
         "filename": "TokenDistribution.code",
-        "line": 464
+        "line": 456
       },
       "288": {
         "filename": "TokenDistribution.code",
-        "line": 465
+        "line": 457
       },
       "304": {
         "filename": "TokenDistribution.code",
-        "line": 466
+        "line": 458
       },
       "320": {
         "filename": "TokenDistribution.code",
-        "line": 467
+        "line": 459
       },
       "336": {
         "filename": "TokenDistribution.code",
-        "line": 468
+        "line": 460
       },
       "352": {
         "filename": "TokenDistribution.code",
-        "line": 469
+        "line": 461
       },
       "368": {
         "filename": "TokenDistribution.code",
-        "line": 470
+        "line": 462
       },
       "384": {
         "filename": "TokenDistribution.code",
-        "line": 471
+        "line": 463
       },
       "400": {
         "filename": "TokenDistribution.code",
-        "line": 472
+        "line": 464
       },
       "416": {
         "filename": "TokenDistribution.code",
-        "line": 473
+        "line": 465
       },
       "432": {
         "filename": "TokenDistribution.code",
-        "line": 474
+        "line": 466
       },
       "448": {
         "filename": "TokenDistribution.code",
-        "line": 475
+        "line": 467
       },
       "472": {
         "filename": "TokenDistribution.code",
-        "line": 476
+        "line": 468
       },
       "488": {
         "filename": "TokenDistribution.code",
-        "line": 477
+        "line": 469
       },
       "496": {
         "filename": "TokenDistribution.code",
-        "line": 478
-      }
-    },
-    "203e455efaa6a3dcf0ab0b93b2db00240d8539aa07b3f971aff4897937805394": {
-      "0": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 50
-      },
-      "16": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 50
-      },
-      "32": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 50
-      },
-      "48": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 50
-      },
-      "72": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 84
-      },
-      "120": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 84
-      },
-      "128": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 84
-      },
-      "144": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 85
-      },
-      "152": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 85
-      },
-      "160": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 85
-      },
-      "168": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 85
-      },
-      "184": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 85
-      },
-      "200": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 85
-      },
-      "208": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 85
-      },
-      "224": {
-        "filename": "TokenDistribution.code",
-        "line": 388
-      },
-      "232": {
-        "filename": "TokenDistribution.code",
-        "line": 389
+        "line": 470
       }
     },
     "204085a82e8257f818ca8f6d0ea5a9750974c426feb80305ffba3fc6f2e5dd1f": {
       "0": {
         "filename": "TokenDistribution.code",
-        "line": 692
+        "line": 684
       },
       "8": {
         "filename": "TokenDistribution.code",
-        "line": 693
+        "line": 685
       },
       "16": {
         "filename": "TokenDistribution.code",
-        "line": 694
+        "line": 686
       },
       "32": {
         "filename": "TokenDistribution.code",
-        "line": 697
+        "line": 689
       },
       "48": {
         "filename": "TokenDistribution.code",
-        "line": 698
+        "line": 690
       },
       "56": {
         "filename": "TokenDistribution.code",
-        "line": 699
+        "line": 691
       },
       "72": {
         "filename": "TokenDistribution.code",
-        "line": 700
+        "line": 692
       },
       "232": {
         "filename": "TokenDistribution.code",
-        "line": 701
+        "line": 693
       },
       "240": {
         "filename": "TokenDistribution.code",
-        "line": 702
+        "line": 694
       },
       "248": {
         "filename": "TokenDistribution.code",
-        "line": 703
+        "line": 695
       },
       "264": {
         "filename": "TokenDistribution.code",
-        "line": 704
+        "line": 696
       },
       "272": {
         "filename": "TokenDistribution.code",
-        "line": 705
+        "line": 697
       },
       "280": {
         "filename": "TokenDistribution.code",
-        "line": 706
+        "line": 698
       },
       "296": {
         "filename": "TokenDistribution.code",
-        "line": 708
+        "line": 700
       },
       "304": {
         "filename": "TokenDistribution.code",
-        "line": 709
-      }
-    },
-    "3f45494be67ce632229bf90ce9cbad20860bf5c6ebe3fc86964b439df34e4756": {
-      "0": {
-        "filename": "TokenDistribution.code",
-        "line": 570
-      },
-      "16": {
-        "filename": "TokenDistribution.code",
-        "line": 571
-      },
-      "24": {
-        "filename": "TokenDistribution.code",
-        "line": 572
-      },
-      "40": {
-        "filename": "TokenDistribution.code",
-        "line": 573
-      },
-      "56": {
-        "filename": "TokenDistribution.code",
-        "line": 574
-      },
-      "72": {
-        "filename": "TokenDistribution.code",
-        "line": 575
-      },
-      "80": {
-        "filename": "TokenDistribution.code",
-        "line": 578
-      },
-      "96": {
-        "filename": "TokenDistribution.code",
-        "line": 579
-      },
-      "104": {
-        "filename": "TokenDistribution.code",
-        "line": 580
-      },
-      "120": {
-        "filename": "TokenDistribution.code",
-        "line": 583
-      },
-      "136": {
-        "filename": "TokenDistribution.code",
-        "line": 584
-      },
-      "144": {
-        "filename": "TokenDistribution.code",
-        "line": 585
-      },
-      "160": {
-        "filename": "TokenDistribution.code",
-        "line": 586
-      },
-      "176": {
-        "filename": "TokenDistribution.code",
-        "line": 587
-      },
-      "192": {
-        "filename": "TokenDistribution.code",
-        "line": 588
-      },
-      "200": {
-        "filename": "TokenDistribution.code",
-        "line": 589
-      },
-      "216": {
-        "filename": "TokenDistribution.code",
-        "line": 590
-      },
-      "224": {
-        "filename": "TokenDistribution.code",
-        "line": 591
-      },
-      "240": {
-        "filename": "TokenDistribution.code",
-        "line": 592
-      },
-      "248": {
-        "filename": "TokenDistribution.code",
-        "line": 593
-      },
-      "256": {
-        "filename": "TokenDistribution.code",
-        "line": 594
-      },
-      "272": {
-        "filename": "TokenDistribution.code",
-        "line": 595
-      },
-      "280": {
-        "filename": "TokenDistribution.code",
-        "line": 596
-      },
-      "288": {
-        "filename": "TokenDistribution.code",
-        "line": 598
-      },
-      "296": {
-        "filename": "TokenDistribution.code",
-        "line": 599
-      },
-      "304": {
-        "filename": "TokenDistribution.code",
-        "line": 600
-      },
-      "320": {
-        "filename": "TokenDistribution.code",
-        "line": 602
-      },
-      "328": {
-        "filename": "TokenDistribution.code",
-        "line": 603
-      },
-      "344": {
-        "filename": "TokenDistribution.code",
-        "line": 604
-      },
-      "360": {
-        "filename": "TokenDistribution.code",
-        "line": 606
-      },
-      "368": {
-        "filename": "TokenDistribution.code",
-        "line": 607
-      },
-      "384": {
-        "filename": "TokenDistribution.code",
-        "line": 608
-      },
-      "392": {
-        "filename": "TokenDistribution.code",
-        "line": 609
-      },
-      "408": {
-        "filename": "TokenDistribution.code",
-        "line": 611
-      },
-      "416": {
-        "filename": "TokenDistribution.code",
-        "line": 612
-      },
-      "432": {
-        "filename": "TokenDistribution.code",
-        "line": 613
-      },
-      "440": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "456": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "464": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "472": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "488": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "496": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "512": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "536": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "544": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "584": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "592": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "600": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "616": {
-        "filename": "stdlib.sol",
-        "line": 63
-      },
-      "632": {
-        "filename": "TokenDistribution.code",
-        "line": 615
-      },
-      "648": {
-        "filename": "TokenDistribution.code",
-        "line": 616
-      },
-      "656": {
-        "filename": "TokenDistribution.code",
-        "line": 617
-      },
-      "672": {
-        "filename": "TokenDistribution.code",
-        "line": 618
-      },
-      "680": {
-        "filename": "TokenDistribution.code",
-        "line": 619
-      },
-      "696": {
-        "filename": "TokenDistribution.code",
-        "line": 620
-      },
-      "712": {
-        "filename": "TokenDistribution.code",
-        "line": 621
-      },
-      "720": {
-        "filename": "TokenDistribution.code",
-        "line": 622
-      },
-      "736": {
-        "filename": "TokenDistribution.code",
-        "line": 625
+        "line": 701
       }
     },
     "4931251b5d885ef0cb8cb85f4b4604bb3ab8b424ff61eca253efc6a3a572e1c7": {
@@ -803,177 +569,111 @@
     "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
       "0": {
         "filename": "TokenDistribution.code",
-        "line": 452
+        "line": 568
       }
     },
     "680039034a21142d9606ef8ec4129dd8a95ca4912a4956d22a546322a42ec5d3": {
       "0": {
         "filename": "TokenDistribution.code",
-        "line": 428
+        "line": 420
       },
       "16": {
         "filename": "TokenDistribution.code",
-        "line": 429
+        "line": 421
       },
       "24": {
         "filename": "TokenDistribution.code",
-        "line": 430
+        "line": 422
       },
       "40": {
         "filename": "TokenDistribution.code",
-        "line": 431
+        "line": 423
       },
       "56": {
         "filename": "TokenDistribution.code",
-        "line": 432
+        "line": 424
       },
       "72": {
         "filename": "TokenDistribution.code",
-        "line": 480
-      }
-    },
-    "6c5e7bdd46519f732b4c669bf4d46464fcd719aa550020898f2a3fbfc7996d14": {
-      "0": {
-        "filename": "TokenDistribution.code",
-        "line": 745
-      },
-      "8": {
-        "filename": "TokenDistribution.code",
-        "line": 746
-      },
-      "56": {
-        "filename": "TokenDistribution.code",
-        "line": 747
-      },
-      "64": {
-        "filename": "TokenDistribution.code",
-        "line": 748
-      },
-      "80": {
-        "filename": "TokenDistribution.code",
-        "line": 751
-      },
-      "88": {
-        "filename": "TokenDistribution.code",
-        "line": 752
-      },
-      "136": {
-        "filename": "TokenDistribution.code",
-        "line": 753
-      },
-      "144": {
-        "filename": "TokenDistribution.code",
-        "line": 754
-      },
-      "160": {
-        "filename": "TokenDistribution.code",
-        "line": 757
-      },
-      "168": {
-        "filename": "TokenDistribution.code",
-        "line": 758
-      },
-      "216": {
-        "filename": "TokenDistribution.code",
-        "line": 759
-      },
-      "224": {
-        "filename": "TokenDistribution.code",
-        "line": 760
-      },
-      "240": {
-        "filename": "TokenDistribution.code",
-        "line": 763
-      },
-      "248": {
-        "filename": "TokenDistribution.code",
-        "line": 764
-      },
-      "296": {
-        "filename": "TokenDistribution.code",
-        "line": 765
-      },
-      "304": {
-        "filename": "TokenDistribution.code",
-        "line": 766
+        "line": 472
       }
     },
     "6e47cf6b4c7d2e8b0144d4cddf020fd5c37eeeb867f2d00faf7138ecaa3e5493": {
       "0": {
         "filename": "TokenDistribution.code",
-        "line": 628
+        "line": 620
       },
       "8": {
         "filename": "TokenDistribution.code",
-        "line": 629
+        "line": 621
       },
       "16": {
         "filename": "TokenDistribution.code",
-        "line": 630
+        "line": 622
       },
       "32": {
         "filename": "TokenDistribution.code",
-        "line": 633
+        "line": 625
       },
       "48": {
         "filename": "TokenDistribution.code",
-        "line": 634
+        "line": 626
       },
       "56": {
         "filename": "TokenDistribution.code",
-        "line": 635
+        "line": 627
       },
       "72": {
         "filename": "TokenDistribution.code",
-        "line": 636
+        "line": 628
       },
       "232": {
         "filename": "TokenDistribution.code",
-        "line": 637
+        "line": 629
       },
       "240": {
         "filename": "TokenDistribution.code",
-        "line": 638
+        "line": 630
       },
       "248": {
         "filename": "TokenDistribution.code",
-        "line": 639
+        "line": 631
       },
       "256": {
         "filename": "TokenDistribution.code",
-        "line": 640
+        "line": 632
       },
       "272": {
         "filename": "TokenDistribution.code",
-        "line": 641
+        "line": 633
       },
       "280": {
         "filename": "TokenDistribution.code",
-        "line": 642
+        "line": 634
       },
       "296": {
         "filename": "TokenDistribution.code",
-        "line": 643
+        "line": 635
       },
       "312": {
         "filename": "TokenDistribution.code",
-        "line": 644
+        "line": 636
       },
       "320": {
         "filename": "TokenDistribution.code",
-        "line": 645
+        "line": 637
       },
       "328": {
         "filename": "TokenDistribution.code",
-        "line": 646
+        "line": 638
       },
       "344": {
         "filename": "TokenDistribution.code",
-        "line": 648
+        "line": 640
       },
       "352": {
         "filename": "TokenDistribution.code",
-        "line": 649
+        "line": 641
       }
     },
     "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
@@ -986,134 +686,378 @@
         "line": 2
       }
     },
-    "78b1905c170b98768fbbb9318be61967fefcaa460822fb898f2e41d3eccb653b": {
+    "73afcce8027cfe73b0a5ea528c5b39ed11b495fb380c35c79f22a1452a7b41a9": {
       "0": {
-        "filename": "TokenDistribution.code",
-        "line": 485
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 50
       },
       "16": {
-        "filename": "TokenDistribution.code",
-        "line": 486
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 50
       },
       "32": {
-        "filename": "TokenDistribution.code",
-        "line": 487
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 50
       },
       "48": {
-        "filename": "TokenDistribution.code",
-        "line": 488
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 50
       },
-      "64": {
-        "filename": "TokenDistribution.code",
-        "line": 489
+      "72": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 84
       },
-      "80": {
-        "filename": "TokenDistribution.code",
-        "line": 490
-      },
-      "96": {
-        "filename": "TokenDistribution.code",
-        "line": 491
-      },
-      "112": {
-        "filename": "TokenDistribution.code",
-        "line": 492
+      "120": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 84
       },
       "128": {
-        "filename": "TokenDistribution.code",
-        "line": 493
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 84
       },
       "144": {
-        "filename": "TokenDistribution.code",
-        "line": 494
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 85
       },
       "152": {
-        "filename": "TokenDistribution.code",
-        "line": 495
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 85
+      },
+      "160": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 85
       },
       "168": {
-        "filename": "TokenDistribution.code",
-        "line": 496
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 85
       },
       "184": {
-        "filename": "TokenDistribution.code",
-        "line": 497
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 85
       },
       "200": {
-        "filename": "TokenDistribution.code",
-        "line": 498
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 85
       },
-      "216": {
-        "filename": "TokenDistribution.code",
-        "line": 499
+      "208": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 85
       },
       "224": {
         "filename": "TokenDistribution.code",
-        "line": 500
+        "line": 380
       },
       "232": {
         "filename": "TokenDistribution.code",
-        "line": 501
+        "line": 381
+      }
+    },
+    "78b1905c170b98768fbbb9318be61967fefcaa460822fb898f2e41d3eccb653b": {
+      "0": {
+        "filename": "TokenDistribution.code",
+        "line": 477
+      },
+      "16": {
+        "filename": "TokenDistribution.code",
+        "line": 478
+      },
+      "32": {
+        "filename": "TokenDistribution.code",
+        "line": 479
+      },
+      "48": {
+        "filename": "TokenDistribution.code",
+        "line": 480
+      },
+      "64": {
+        "filename": "TokenDistribution.code",
+        "line": 481
+      },
+      "80": {
+        "filename": "TokenDistribution.code",
+        "line": 482
+      },
+      "96": {
+        "filename": "TokenDistribution.code",
+        "line": 483
+      },
+      "112": {
+        "filename": "TokenDistribution.code",
+        "line": 484
+      },
+      "128": {
+        "filename": "TokenDistribution.code",
+        "line": 485
+      },
+      "144": {
+        "filename": "TokenDistribution.code",
+        "line": 486
+      },
+      "152": {
+        "filename": "TokenDistribution.code",
+        "line": 487
+      },
+      "168": {
+        "filename": "TokenDistribution.code",
+        "line": 488
+      },
+      "184": {
+        "filename": "TokenDistribution.code",
+        "line": 489
+      },
+      "200": {
+        "filename": "TokenDistribution.code",
+        "line": 490
+      },
+      "216": {
+        "filename": "TokenDistribution.code",
+        "line": 491
+      },
+      "224": {
+        "filename": "TokenDistribution.code",
+        "line": 492
+      },
+      "232": {
+        "filename": "TokenDistribution.code",
+        "line": 493
       },
       "248": {
         "filename": "TokenDistribution.code",
-        "line": 502
+        "line": 494
       },
       "256": {
         "filename": "TokenDistribution.code",
-        "line": 503
+        "line": 495
       },
       "272": {
         "filename": "TokenDistribution.code",
-        "line": 504
+        "line": 496
       },
       "288": {
         "filename": "TokenDistribution.code",
-        "line": 505
+        "line": 497
       },
       "304": {
         "filename": "TokenDistribution.code",
-        "line": 506
+        "line": 498
       },
       "312": {
         "filename": "TokenDistribution.code",
-        "line": 507
+        "line": 499
       },
       "320": {
         "filename": "TokenDistribution.code",
-        "line": 508
+        "line": 500
       },
       "336": {
         "filename": "TokenDistribution.code",
-        "line": 509
+        "line": 501
       },
       "344": {
         "filename": "TokenDistribution.code",
-        "line": 510
+        "line": 502
       },
       "352": {
         "filename": "TokenDistribution.code",
-        "line": 511
+        "line": 503
       },
       "368": {
         "filename": "TokenDistribution.code",
-        "line": 512
+        "line": 504
       },
       "384": {
         "filename": "TokenDistribution.code",
-        "line": 513
+        "line": 505
       },
       "392": {
         "filename": "TokenDistribution.code",
-        "line": 514
+        "line": 506
       },
       "400": {
         "filename": "TokenDistribution.code",
-        "line": 515
+        "line": 507
       },
       "408": {
         "filename": "TokenDistribution.code",
-        "line": 516
+        "line": 508
+      }
+    },
+    "84348a182fc43811922d00704e427b29827dda25ba6d027fe46d75a324e8f486": {
+      "0": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 86
+      },
+      "8": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 86
+      },
+      "24": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 86
+      },
+      "40": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 86
+      },
+      "56": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 86
+      },
+      "72": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 86
+      },
+      "88": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 87
+      },
+      "96": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "104": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "112": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "160": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "176": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "192": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "200": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "224": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "232": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "392": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "416": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "432": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "440": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "488": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "504": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "512": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "528": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "544": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "552": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "560": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "576": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "584": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "592": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "600": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "608": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "616": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 88
+      },
+      "632": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 96
+      },
+      "648": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 96
+      },
+      "808": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 96
+      },
+      "816": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 96
+      },
+      "824": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 96
+      },
+      "832": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 96
+      },
+      "848": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 96
+      },
+      "856": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 96
+      },
+      "864": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 96
+      },
+      "880": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 85
+      },
+      "888": {
+        "filename": "../contracts/TokenDistribution.tsol",
+        "line": 85
       }
     },
     "857f5d41db2dd9d0398f8155027ed82d40b899cecc01259aefeb3d5ba7c1a5c8": {
@@ -1326,106 +1270,142 @@
         "line": 164
       }
     },
-    "9478d9e0b3770e3bec333a0827627e0041df4eb27ba3e305b9e4a13836d696d8": {
+    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+    "b48fdbb3b9c4931e4999c5c3216135bc82cfcc714827085cbc73f40d962d1716": {
       "0": {
         "filename": "TokenDistribution.code",
-        "line": 535
+        "line": 385
       },
       "16": {
         "filename": "TokenDistribution.code",
-        "line": 536
+        "line": 386
       },
       "24": {
         "filename": "TokenDistribution.code",
-        "line": 537
+        "line": 387
       },
       "40": {
         "filename": "TokenDistribution.code",
-        "line": 538
+        "line": 388
       },
       "56": {
         "filename": "TokenDistribution.code",
-        "line": 539
+        "line": 389
       },
       "72": {
         "filename": "TokenDistribution.code",
-        "line": 540
+        "line": 390
       },
       "80": {
         "filename": "TokenDistribution.code",
-        "line": 541
+        "line": 391
       },
-      "88": {
+      "96": {
         "filename": "TokenDistribution.code",
-        "line": 542
+        "line": 392
       },
-      "104": {
+      "112": {
         "filename": "TokenDistribution.code",
-        "line": 543
-      },
-      "120": {
-        "filename": "TokenDistribution.code",
-        "line": 544
+        "line": 393
       },
       "128": {
         "filename": "TokenDistribution.code",
-        "line": 545
+        "line": 394
       },
       "144": {
         "filename": "TokenDistribution.code",
-        "line": 546
+        "line": 395
+      },
+      "152": {
+        "filename": "TokenDistribution.code",
+        "line": 396
       },
       "168": {
         "filename": "TokenDistribution.code",
-        "line": 547
+        "line": 397
       },
       "176": {
         "filename": "TokenDistribution.code",
-        "line": 548
+        "line": 398
       },
       "184": {
         "filename": "TokenDistribution.code",
-        "line": 549
+        "line": 399
+      },
+      "192": {
+        "filename": "TokenDistribution.code",
+        "line": 400
       },
       "200": {
         "filename": "TokenDistribution.code",
-        "line": 550
+        "line": 401
       },
       "216": {
         "filename": "TokenDistribution.code",
-        "line": 554
+        "line": 402
       },
       "224": {
         "filename": "TokenDistribution.code",
-        "line": 555
+        "line": 403
       },
-      "248": {
+      "232": {
         "filename": "TokenDistribution.code",
-        "line": 556
+        "line": 404
       },
-      "264": {
+      "240": {
         "filename": "TokenDistribution.code",
-        "line": 557
+        "line": 405
+      },
+      "256": {
+        "filename": "TokenDistribution.code",
+        "line": 406
       },
       "272": {
         "filename": "TokenDistribution.code",
-        "line": 558
+        "line": 407
       },
       "288": {
         "filename": "TokenDistribution.code",
-        "line": 562
+        "line": 408
       },
       "296": {
         "filename": "TokenDistribution.code",
-        "line": 563
+        "line": 409
       },
       "312": {
         "filename": "TokenDistribution.code",
-        "line": 566
+        "line": 410
+      },
+      "328": {
+        "filename": "TokenDistribution.code",
+        "line": 411
+      },
+      "344": {
+        "filename": "TokenDistribution.code",
+        "line": 412
+      },
+      "360": {
+        "filename": "TokenDistribution.code",
+        "line": 413
+      },
+      "376": {
+        "filename": "TokenDistribution.code",
+        "line": 414
+      },
+      "392": {
+        "filename": "TokenDistribution.code",
+        "line": 415
+      },
+      "408": {
+        "filename": "TokenDistribution.code",
+        "line": 416
+      },
+      "424": {
+        "filename": "TokenDistribution.code",
+        "line": 417
       }
     },
-    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
-    "b0b4fc17283425ed10cdedb86a2d311e247111a2edb0e1e120eaa32143489717": {
+    "c35374c507e927121105526fa26438363b6fc6b002327894e806802532e390f9": {
       "0": {
         "filename": "<entry-selector>",
         "line": 1
@@ -1471,191 +1451,69 @@
         "line": 11
       }
     },
-    "b149f115129c9a2a6354daaa3164a5bad8e761254ea18ad147f6681c207aae19": {
+    "c708e8ee7a128b0ac190de5573a24f77e6e41ea8ddd4795e374cbcf6bcd26dca": {
       "0": {
         "filename": "TokenDistribution.code",
-        "line": 712
+        "line": 664
       },
       "8": {
         "filename": "TokenDistribution.code",
-        "line": 713
-      },
-      "56": {
-        "filename": "TokenDistribution.code",
-        "line": 714
-      },
-      "64": {
-        "filename": "TokenDistribution.code",
-        "line": 715
-      },
-      "80": {
-        "filename": "TokenDistribution.code",
-        "line": 741
-      },
-      "88": {
-        "filename": "TokenDistribution.code",
-        "line": 742
-      },
-      "136": {
-        "filename": "TokenDistribution.code",
-        "line": 743
-      },
-      "144": {
-        "filename": "TokenDistribution.code",
-        "line": 744
-      },
-      "160": {
-        "filename": "TokenDistribution.code",
-        "line": 770
-      },
-      "168": {
-        "filename": "TokenDistribution.code",
-        "line": 771
-      },
-      "216": {
-        "filename": "TokenDistribution.code",
-        "line": 772
-      },
-      "224": {
-        "filename": "TokenDistribution.code",
-        "line": 773
-      }
-    },
-    "b48fdbb3b9c4931e4999c5c3216135bc82cfcc714827085cbc73f40d962d1716": {
-      "0": {
-        "filename": "TokenDistribution.code",
-        "line": 393
+        "line": 665
       },
       "16": {
         "filename": "TokenDistribution.code",
-        "line": 394
+        "line": 666
       },
-      "24": {
+      "32": {
         "filename": "TokenDistribution.code",
-        "line": 395
+        "line": 669
       },
-      "40": {
+      "48": {
         "filename": "TokenDistribution.code",
-        "line": 396
+        "line": 670
       },
       "56": {
         "filename": "TokenDistribution.code",
-        "line": 397
+        "line": 671
       },
       "72": {
         "filename": "TokenDistribution.code",
-        "line": 398
-      },
-      "80": {
-        "filename": "TokenDistribution.code",
-        "line": 399
-      },
-      "96": {
-        "filename": "TokenDistribution.code",
-        "line": 400
-      },
-      "112": {
-        "filename": "TokenDistribution.code",
-        "line": 401
-      },
-      "128": {
-        "filename": "TokenDistribution.code",
-        "line": 402
-      },
-      "144": {
-        "filename": "TokenDistribution.code",
-        "line": 403
-      },
-      "152": {
-        "filename": "TokenDistribution.code",
-        "line": 404
-      },
-      "168": {
-        "filename": "TokenDistribution.code",
-        "line": 405
-      },
-      "176": {
-        "filename": "TokenDistribution.code",
-        "line": 406
-      },
-      "184": {
-        "filename": "TokenDistribution.code",
-        "line": 407
-      },
-      "192": {
-        "filename": "TokenDistribution.code",
-        "line": 408
-      },
-      "200": {
-        "filename": "TokenDistribution.code",
-        "line": 409
-      },
-      "216": {
-        "filename": "TokenDistribution.code",
-        "line": 410
-      },
-      "224": {
-        "filename": "TokenDistribution.code",
-        "line": 411
+        "line": 672
       },
       "232": {
         "filename": "TokenDistribution.code",
-        "line": 412
+        "line": 673
       },
       "240": {
         "filename": "TokenDistribution.code",
-        "line": 413
+        "line": 674
+      },
+      "248": {
+        "filename": "TokenDistribution.code",
+        "line": 675
       },
       "256": {
         "filename": "TokenDistribution.code",
-        "line": 414
+        "line": 676
+      },
+      "264": {
+        "filename": "TokenDistribution.code",
+        "line": 677
       },
       "272": {
         "filename": "TokenDistribution.code",
-        "line": 415
+        "line": 678
       },
       "288": {
         "filename": "TokenDistribution.code",
-        "line": 416
+        "line": 680
       },
       "296": {
         "filename": "TokenDistribution.code",
-        "line": 417
-      },
-      "312": {
-        "filename": "TokenDistribution.code",
-        "line": 418
-      },
-      "328": {
-        "filename": "TokenDistribution.code",
-        "line": 419
-      },
-      "344": {
-        "filename": "TokenDistribution.code",
-        "line": 420
-      },
-      "360": {
-        "filename": "TokenDistribution.code",
-        "line": 421
-      },
-      "376": {
-        "filename": "TokenDistribution.code",
-        "line": 422
-      },
-      "392": {
-        "filename": "TokenDistribution.code",
-        "line": 423
-      },
-      "408": {
-        "filename": "TokenDistribution.code",
-        "line": 424
-      },
-      "424": {
-        "filename": "TokenDistribution.code",
-        "line": 425
+        "line": 681
       }
     },
-    "b9b64da67e887601ec0e07376945db386001b10d7d6722aac1af0fd4f699f170": {
+    "c95dfac73e818abf2e12fa2a99ca2da050dacf4f030754c6673b8000dccfb23d": {
       "0": {
         "filename": "TokenDistribution.code",
         "line": 278
@@ -1725,278 +1583,6 @@
         "line": 303
       }
     },
-    "be3192c37ea9ad92f3d9d5d02f906fb3533ba417cfedf9ec9426d2244377b903": {
-      "0": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 86
-      },
-      "8": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 86
-      },
-      "24": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 86
-      },
-      "40": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 86
-      },
-      "56": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 86
-      },
-      "72": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 86
-      },
-      "88": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 87
-      },
-      "96": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "104": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "112": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "160": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "176": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "224": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "240": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "256": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "272": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "280": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "296": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "312": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "320": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "344": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "352": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "360": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "376": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "384": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "408": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "424": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "432": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "480": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "496": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "504": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "520": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "536": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "544": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "552": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "568": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "576": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "584": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "592": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "600": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "608": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 88
-      },
-      "624": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 96
-      },
-      "640": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 96
-      },
-      "800": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 96
-      },
-      "808": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 96
-      },
-      "816": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 96
-      },
-      "824": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 96
-      },
-      "840": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 96
-      },
-      "848": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 96
-      },
-      "856": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 96
-      },
-      "872": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 85
-      },
-      "880": {
-        "filename": "../contracts/TokenDistribution.tsol",
-        "line": 85
-      }
-    },
-    "c708e8ee7a128b0ac190de5573a24f77e6e41ea8ddd4795e374cbcf6bcd26dca": {
-      "0": {
-        "filename": "TokenDistribution.code",
-        "line": 672
-      },
-      "8": {
-        "filename": "TokenDistribution.code",
-        "line": 673
-      },
-      "16": {
-        "filename": "TokenDistribution.code",
-        "line": 674
-      },
-      "32": {
-        "filename": "TokenDistribution.code",
-        "line": 677
-      },
-      "48": {
-        "filename": "TokenDistribution.code",
-        "line": 678
-      },
-      "56": {
-        "filename": "TokenDistribution.code",
-        "line": 679
-      },
-      "72": {
-        "filename": "TokenDistribution.code",
-        "line": 680
-      },
-      "232": {
-        "filename": "TokenDistribution.code",
-        "line": 681
-      },
-      "240": {
-        "filename": "TokenDistribution.code",
-        "line": 682
-      },
-      "248": {
-        "filename": "TokenDistribution.code",
-        "line": 683
-      },
-      "256": {
-        "filename": "TokenDistribution.code",
-        "line": 684
-      },
-      "264": {
-        "filename": "TokenDistribution.code",
-        "line": 685
-      },
-      "272": {
-        "filename": "TokenDistribution.code",
-        "line": 686
-      },
-      "288": {
-        "filename": "TokenDistribution.code",
-        "line": 688
-      },
-      "296": {
-        "filename": "TokenDistribution.code",
-        "line": 689
-      }
-    },
     "d38d6bc45549fcff77ae0bb39ff30750499d31c163d9b2e0e52ce33aeee1ef79": {
       "0": {
         "filename": "TokenDistribution.code",
@@ -2063,140 +1649,522 @@
         "line": 96
       }
     },
+    "d3b7ddc4f69f46d6f5eef1d0a2b10fcebfc1829028efd92c4e37790ef23be665": {
+      "0": {
+        "filename": "TokenDistribution.code",
+        "line": 527
+      },
+      "16": {
+        "filename": "TokenDistribution.code",
+        "line": 528
+      },
+      "24": {
+        "filename": "TokenDistribution.code",
+        "line": 529
+      },
+      "40": {
+        "filename": "TokenDistribution.code",
+        "line": 530
+      },
+      "56": {
+        "filename": "TokenDistribution.code",
+        "line": 531
+      },
+      "72": {
+        "filename": "TokenDistribution.code",
+        "line": 532
+      },
+      "80": {
+        "filename": "TokenDistribution.code",
+        "line": 533
+      },
+      "88": {
+        "filename": "TokenDistribution.code",
+        "line": 534
+      },
+      "104": {
+        "filename": "TokenDistribution.code",
+        "line": 535
+      },
+      "120": {
+        "filename": "TokenDistribution.code",
+        "line": 536
+      },
+      "128": {
+        "filename": "TokenDistribution.code",
+        "line": 537
+      },
+      "144": {
+        "filename": "TokenDistribution.code",
+        "line": 538
+      },
+      "168": {
+        "filename": "TokenDistribution.code",
+        "line": 539
+      },
+      "176": {
+        "filename": "TokenDistribution.code",
+        "line": 540
+      },
+      "184": {
+        "filename": "TokenDistribution.code",
+        "line": 541
+      },
+      "200": {
+        "filename": "TokenDistribution.code",
+        "line": 542
+      },
+      "216": {
+        "filename": "TokenDistribution.code",
+        "line": 546
+      },
+      "224": {
+        "filename": "TokenDistribution.code",
+        "line": 547
+      },
+      "248": {
+        "filename": "TokenDistribution.code",
+        "line": 548
+      },
+      "264": {
+        "filename": "TokenDistribution.code",
+        "line": 549
+      },
+      "272": {
+        "filename": "TokenDistribution.code",
+        "line": 550
+      },
+      "288": {
+        "filename": "TokenDistribution.code",
+        "line": 554
+      },
+      "296": {
+        "filename": "TokenDistribution.code",
+        "line": 555
+      },
+      "312": {
+        "filename": "TokenDistribution.code",
+        "line": 558
+      }
+    },
     "d558e53bf690afc8a76b8887a99a49a52db1bd24bec5da84780ea0e7bc0aad3f": {
       "0": {
         "filename": "TokenDistribution.code",
-        "line": 451
+        "line": 443
+      }
+    },
+    "d8c10c9624afa6442a21756d0a0a55de80fdcdd2fda8858ff62b2575299144a9": {
+      "0": {
+        "filename": "TokenDistribution.code",
+        "line": 562
+      },
+      "16": {
+        "filename": "TokenDistribution.code",
+        "line": 563
+      },
+      "24": {
+        "filename": "TokenDistribution.code",
+        "line": 564
+      },
+      "40": {
+        "filename": "TokenDistribution.code",
+        "line": 565
+      },
+      "56": {
+        "filename": "TokenDistribution.code",
+        "line": 566
+      },
+      "72": {
+        "filename": "TokenDistribution.code",
+        "line": 567
+      },
+      "80": {
+        "filename": "TokenDistribution.code",
+        "line": 570
+      },
+      "96": {
+        "filename": "TokenDistribution.code",
+        "line": 571
+      },
+      "104": {
+        "filename": "TokenDistribution.code",
+        "line": 572
+      },
+      "120": {
+        "filename": "TokenDistribution.code",
+        "line": 575
+      },
+      "136": {
+        "filename": "TokenDistribution.code",
+        "line": 576
+      },
+      "144": {
+        "filename": "TokenDistribution.code",
+        "line": 577
+      },
+      "160": {
+        "filename": "TokenDistribution.code",
+        "line": 578
+      },
+      "176": {
+        "filename": "TokenDistribution.code",
+        "line": 579
+      },
+      "192": {
+        "filename": "TokenDistribution.code",
+        "line": 580
+      },
+      "200": {
+        "filename": "TokenDistribution.code",
+        "line": 581
+      },
+      "216": {
+        "filename": "TokenDistribution.code",
+        "line": 582
+      },
+      "224": {
+        "filename": "TokenDistribution.code",
+        "line": 583
+      },
+      "240": {
+        "filename": "TokenDistribution.code",
+        "line": 584
+      },
+      "248": {
+        "filename": "TokenDistribution.code",
+        "line": 585
+      },
+      "256": {
+        "filename": "TokenDistribution.code",
+        "line": 586
+      },
+      "272": {
+        "filename": "TokenDistribution.code",
+        "line": 587
+      },
+      "280": {
+        "filename": "TokenDistribution.code",
+        "line": 588
+      },
+      "288": {
+        "filename": "TokenDistribution.code",
+        "line": 590
+      },
+      "296": {
+        "filename": "TokenDistribution.code",
+        "line": 591
+      },
+      "304": {
+        "filename": "TokenDistribution.code",
+        "line": 592
+      },
+      "320": {
+        "filename": "TokenDistribution.code",
+        "line": 594
+      },
+      "328": {
+        "filename": "TokenDistribution.code",
+        "line": 595
+      },
+      "344": {
+        "filename": "TokenDistribution.code",
+        "line": 596
+      },
+      "360": {
+        "filename": "TokenDistribution.code",
+        "line": 598
+      },
+      "368": {
+        "filename": "TokenDistribution.code",
+        "line": 599
+      },
+      "384": {
+        "filename": "TokenDistribution.code",
+        "line": 600
+      },
+      "392": {
+        "filename": "TokenDistribution.code",
+        "line": 601
+      },
+      "408": {
+        "filename": "TokenDistribution.code",
+        "line": 603
+      },
+      "416": {
+        "filename": "TokenDistribution.code",
+        "line": 604
+      },
+      "432": {
+        "filename": "TokenDistribution.code",
+        "line": 605
+      },
+      "440": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "456": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "464": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "472": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "488": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "496": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "512": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "536": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "544": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "584": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "592": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "600": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "616": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "632": {
+        "filename": "TokenDistribution.code",
+        "line": 607
+      },
+      "648": {
+        "filename": "TokenDistribution.code",
+        "line": 608
+      },
+      "656": {
+        "filename": "TokenDistribution.code",
+        "line": 609
+      },
+      "672": {
+        "filename": "TokenDistribution.code",
+        "line": 610
+      },
+      "680": {
+        "filename": "TokenDistribution.code",
+        "line": 611
+      },
+      "696": {
+        "filename": "TokenDistribution.code",
+        "line": 612
+      },
+      "712": {
+        "filename": "TokenDistribution.code",
+        "line": 613
+      },
+      "720": {
+        "filename": "TokenDistribution.code",
+        "line": 614
+      },
+      "736": {
+        "filename": "TokenDistribution.code",
+        "line": 617
       }
     },
     "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
       "0": {
         "filename": "TokenDistribution.code",
-        "line": 519
+        "line": 511
       },
       "16": {
         "filename": "TokenDistribution.code",
-        "line": 520
+        "line": 512
       },
       "24": {
         "filename": "TokenDistribution.code",
-        "line": 521
+        "line": 513
       },
       "40": {
         "filename": "TokenDistribution.code",
-        "line": 522
+        "line": 514
       },
       "56": {
         "filename": "TokenDistribution.code",
-        "line": 523
+        "line": 515
       },
       "64": {
         "filename": "TokenDistribution.code",
-        "line": 524
+        "line": 516
       },
       "80": {
         "filename": "TokenDistribution.code",
-        "line": 525
+        "line": 517
       },
       "88": {
         "filename": "TokenDistribution.code",
-        "line": 526
+        "line": 518
       },
       "96": {
         "filename": "TokenDistribution.code",
-        "line": 527
+        "line": 519
       },
       "112": {
         "filename": "TokenDistribution.code",
-        "line": 528
+        "line": 520
       },
       "128": {
         "filename": "TokenDistribution.code",
-        "line": 529
+        "line": 521
       },
       "136": {
         "filename": "TokenDistribution.code",
-        "line": 530
+        "line": 522
       },
       "144": {
         "filename": "TokenDistribution.code",
-        "line": 531
+        "line": 523
       }
     },
     "e730b3d458b4b200a01cfec99e07749773e400d60753bb81ce9be513d2bd4664": {
       "0": {
         "filename": "TokenDistribution.code",
-        "line": 716
+        "line": 708
       },
       "8": {
         "filename": "TokenDistribution.code",
-        "line": 717
+        "line": 709
       },
       "56": {
         "filename": "TokenDistribution.code",
-        "line": 718
+        "line": 710
       },
       "64": {
         "filename": "TokenDistribution.code",
-        "line": 719
+        "line": 711
       },
       "80": {
         "filename": "TokenDistribution.code",
-        "line": 722
+        "line": 714
       },
       "88": {
         "filename": "TokenDistribution.code",
-        "line": 723
+        "line": 715
       },
       "136": {
         "filename": "TokenDistribution.code",
-        "line": 724
+        "line": 716
       },
       "144": {
         "filename": "TokenDistribution.code",
-        "line": 725
+        "line": 717
       },
       "160": {
         "filename": "TokenDistribution.code",
-        "line": 728
+        "line": 720
       },
       "168": {
         "filename": "TokenDistribution.code",
-        "line": 729
+        "line": 721
       },
       "216": {
         "filename": "TokenDistribution.code",
-        "line": 730
+        "line": 722
       },
       "224": {
         "filename": "TokenDistribution.code",
-        "line": 731
+        "line": 723
       },
       "240": {
         "filename": "TokenDistribution.code",
-        "line": 734
+        "line": 726
       },
       "248": {
         "filename": "TokenDistribution.code",
-        "line": 735
+        "line": 727
       },
       "296": {
         "filename": "TokenDistribution.code",
-        "line": 736
+        "line": 728
       },
       "304": {
         "filename": "TokenDistribution.code",
-        "line": 737
+        "line": 729
       }
     },
     "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
       "0": {
         "filename": "TokenDistribution.code",
-        "line": 551
+        "line": 543
       },
       "16": {
         "filename": "TokenDistribution.code",
-        "line": 552
+        "line": 544
+      }
+    },
+    "f3392cc72b88d12697bf2a3b3389133547e088ca4b98155e5525700338df4402": {
+      "0": {
+        "filename": "TokenDistribution.code",
+        "line": 704
+      },
+      "8": {
+        "filename": "TokenDistribution.code",
+        "line": 705
+      },
+      "56": {
+        "filename": "TokenDistribution.code",
+        "line": 706
+      },
+      "64": {
+        "filename": "TokenDistribution.code",
+        "line": 707
+      },
+      "80": {
+        "filename": "TokenDistribution.code",
+        "line": 733
+      },
+      "88": {
+        "filename": "TokenDistribution.code",
+        "line": 734
+      },
+      "136": {
+        "filename": "TokenDistribution.code",
+        "line": 735
+      },
+      "144": {
+        "filename": "TokenDistribution.code",
+        "line": 736
+      },
+      "160": {
+        "filename": "TokenDistribution.code",
+        "line": 762
+      },
+      "168": {
+        "filename": "TokenDistribution.code",
+        "line": 763
+      },
+      "216": {
+        "filename": "TokenDistribution.code",
+        "line": 764
+      },
+      "224": {
+        "filename": "TokenDistribution.code",
+        "line": 765
       }
     },
     "f6814fdb7cfd8c68a20bace5e1a8973aba8783517d9930b0dc4c3d33ad0b0b87": {

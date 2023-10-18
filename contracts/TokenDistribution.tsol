@@ -85,7 +85,7 @@ contract TokenDistribution {
     for (uint128 i = 0; i < _whiteListedWallets.length; i++) {
       address recipient = _whiteListedWallets[i];
       TvmCell empty;
-      ITokenWallet(_distributedTokenWallet).transfer{ value: 0.2 ever * uint128(_whiteListedWallets.length), flag: 0}(
+      ITokenWallet(_distributedTokenWallet).transfer{ value: 0.2 ever, flag: 0}(
         amount,
         recipient,
         0.1 ever,

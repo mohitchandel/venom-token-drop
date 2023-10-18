@@ -93,9 +93,6 @@ describe("Test Sample contract", async function () {
         })
         .call();
       const ownerWallet = locklift.factory.getDeployedContract("TokenWallet", ownerWalletAddress);
-
-      // get TokenWallet address of tokensale and instantiate it via factory.
-      // so, we can call _distributedTokenWallet method of tokensale as a variant
       const { value0: tokenDistWalletAddress } = await tokenRoot.methods
         .walletOf({
           answerId: 0,
@@ -131,6 +128,13 @@ describe("Test Sample contract", async function () {
         value: toNano(10000),
         publicKey: aliceS.publicKey,
       });
+      const { value0: aliceWalletAddress } = await tokenRoot.methods
+        .walletOf({
+          answerId: 0,
+          walletOwner: alice.address,
+        })
+        .call();
+      const aliceWallet = locklift.factory.getDeployedContract("TokenWallet", aliceWalletAddress);
 
       const bobS = (await locklift.keystore.getSigner("1"))!;
       const { account: bob } = await locklift.factory.accounts.addNewAccount({
@@ -138,6 +142,13 @@ describe("Test Sample contract", async function () {
         value: toNano(10000),
         publicKey: bobS.publicKey,
       });
+      const { value0: bobWalletAddress } = await tokenRoot.methods
+        .walletOf({
+          answerId: 0,
+          walletOwner: bob.address,
+        })
+        .call();
+      const bobWallet = locklift.factory.getDeployedContract("TokenWallet", bobWalletAddress);
 
       const jackS = (await locklift.keystore.getSigner("2"))!;
       const { account: jack } = await locklift.factory.accounts.addNewAccount({
@@ -145,8 +156,16 @@ describe("Test Sample contract", async function () {
         value: toNano(10000),
         publicKey: jackS.publicKey,
       });
+      const { value0: jackWalletAddress } = await tokenRoot.methods
+        .walletOf({
+          answerId: 0,
+          walletOwner: jack.address,
+        })
+        .call();
+      const jackWallet = locklift.factory.getDeployedContract("TokenWallet", jackWalletAddress);
 
-      const wallets = [alice.address, bob.address, jack.address];
+      const wallets = [aliceWalletAddress, bobWalletAddress, jackWalletAddress];
+      // const wallets = [alice.address, bob.address, jack.address];
 
       await tokenDistribution.methods
         .whiteListAddresses({
@@ -165,7 +184,25 @@ describe("Test Sample contract", async function () {
         }),
       );
 
-      // expect().to.be.equal(amount);
+      const { value0: tokenDistWalletAddress } = await tokenRoot.methods
+        .walletOf({
+          answerId: 0,
+          walletOwner: tokenDistribution.address,
+        })
+        .call();
+      const tokenDistWallet = locklift.factory.getDeployedContract("TokenWallet", tokenDistWalletAddress);
+      const tokenDistBalance = await tokenDistWallet.methods.balance({ answerId: 0 }).call();
+
+      console.log(tokenDistBalance);
+
+      const aliceNewBalance = await aliceWallet.methods.balance({ answerId: 0 }).call();
+      expect(aliceNewBalance.value0).to.be.equal(String(amount));
+
+      const bobNewBalance = await bobWallet.methods.balance({ answerId: 0 }).call();
+      expect(bobNewBalance.value0).to.be.equal(String(amount));
+
+      const jackNewBalance = await jackWallet.methods.balance({ answerId: 0 }).call();
+      expect(jackNewBalance.value0).to.be.equal(String(amount));
     });
   });
 });
