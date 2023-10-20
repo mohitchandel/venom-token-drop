@@ -11,6 +11,7 @@ import {
 } from "locklift";
 import { FactorySource } from "../build/factorySource";
 import BigNumber from "bignumber.js";
+import { EverWalletAccount } from "everscale-standalone-client/nodejs";
 
 let tokenDistribution: Contract<FactorySource["TokenDistribution"]>;
 let tokenRoot: Contract<FactorySource["TokenRoot"]>;
@@ -19,15 +20,18 @@ let account: any;
 
 const ZERO_ADDRESS = "0:0000000000000000000000000000000000000000000000000000000000000000";
 
-describe("Test Sample contract", async function () {
+describe("Test contract", async function () {
   before(async () => {
     signer = (await locklift.keystore.getSigner("0"))!;
+    account = await EverWalletAccount.fromPubkey({ publicKey: signer.publicKey, workchain: 0 });
+
     const { account: accountAddOperation } = await locklift.factory.accounts.addNewAccount({
       type: WalletTypes.WalletV3,
       value: toNano(100000),
       publicKey: signer.publicKey,
     });
     account = accountAddOperation;
+
     const { contract: tip3root } = await locklift.factory.deployContract({
       contract: "TokenRoot",
       publicKey: signer.publicKey,
@@ -164,8 +168,8 @@ describe("Test Sample contract", async function () {
         .call();
       const jackWallet = locklift.factory.getDeployedContract("TokenWallet", jackWalletAddress);
 
-      // const wallets = [aliceWalletAddress, bobWalletAddress, jackWalletAddress];
-      const wallets = [alice.address, bob.address, jack.address];
+      const wallets = [aliceWalletAddress, bobWalletAddress, jackWalletAddress];
+      // const wallets = [alice.address, bob.address, jack.address];
 
       await tokenDistribution.methods
         .whiteListAddresses({
@@ -177,33 +181,23 @@ describe("Test Sample contract", async function () {
 
       expect(walletResponse.whiteListedWallets.length).to.be.equal(wallets.length);
 
-      const { value0: tokenDistWalletAddress } = await tokenRoot.methods
-        .walletOf({
-          answerId: 0,
-          walletOwner: tokenDistribution.address,
-        })
-        .call();
-
-      const tokenDistWallet = locklift.factory.getDeployedContract("TokenWallet", tokenDistWalletAddress);
-      const tokenDistBalance = await tokenDistWallet.methods.balance({ answerId: 0 }).call();
-
-      const tracing = await locklift.tracing.trace(
+      const { traceTree } = await locklift.tracing.trace(
         await tokenDistribution.methods.distributeTokens({ amount }).send({
           from: account.address,
           amount: String(Number(toNano(2)) * Number(toNano(wallets.length))),
         }),
       );
 
-      console.log(tokenDistBalance);
+      await traceTree?.beautyPrint();
 
       const aliceNewBalance = await aliceWallet.methods.balance({ answerId: 0 }).call();
       expect(aliceNewBalance.value0).to.be.equal(String(amount));
 
-      // const bobNewBalance = await bobWallet.methods.balance({ answerId: 0 }).call();
-      // expect(bobNewBalance.value0).to.be.equal(String(amount));
+      const bobNewBalance = await bobWallet.methods.balance({ answerId: 0 }).call();
+      expect(bobNewBalance.value0).to.be.equal(String(amount));
 
-      // const jackNewBalance = await jackWallet.methods.balance({ answerId: 0 }).call();
-      // expect(jackNewBalance.value0).to.be.equal(String(amount));
+      const jackNewBalance = await jackWallet.methods.balance({ answerId: 0 }).call();
+      expect(jackNewBalance.value0).to.be.equal(String(amount));
     });
   });
 });
